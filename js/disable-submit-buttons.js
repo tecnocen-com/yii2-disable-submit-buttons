@@ -11,7 +11,7 @@ $('body').on('beforeValidate', 'form.disable-submit-buttons', function (e) {
     }
   });
 }).on('afterValidate', 'form.disable-submit-buttons', function (e) {
-  if ($(this).find('.has-error').length > 0) {
+  if ($(this).find('.has-error').length > 0 || $(this).find('.has-success').length > 0) {
     $(':input[type="submit"]', this).removeAttr('disabled');
     $(':input[type="submit"][data-disabled-text]', this).each(function (i) {
       var $this = $(this)
