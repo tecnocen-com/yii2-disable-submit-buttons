@@ -1,5 +1,5 @@
 {
-    "name": "faryshta/yii2-disable-submit-buttons",
+    "name": "tecnocen/yii2-disable-submit-buttons",
     "description": "Yii2 asset to automatically disable submit buttons on Yii2 ActiveForm.",
     "keywords": [
         "yii",
@@ -10,12 +10,12 @@
     ],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
-    "homepage": "https://github.com/Faryshta/yii2-jquery-tagsinput",
+    "homepage": "https://github.com/tecnocen/yii2-jquery-tagsinput",
     "authors": [
         {
             "name": "Angel (Faryshta) Guevara",
-            "email": "angeldelcaos@gmail.com",
-            "homepage": "https://github.com/Faryshta",
+            "email": "aguevara@tecnocen.com",
+            "homepage": "https://github.com/Tecnocen-com",
             "role": "Developer"
         }
     ],
@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "faryshta\\": ""
+            "tecnocen\\disablesubmitbutton\\": ""
         }
     },
     "extra": {
