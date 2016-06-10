@@ -1,5 +1,5 @@
 <?php
-namespace faryshta\assets;
+namespace tecnocen\disablesubmitbutton\assets;
 
 use yii\web\AssetBundle;
 
@@ -11,7 +11,7 @@ class ActiveFormDisableSubmitButtonsAsset extends AssetBundle
     /**
      * @inheritdoc
      */
-    public $sourcePath = "@vendor/faryshta/yii2-disable-submit-buttons/js";
+    public $sourcePath = "@vendor/tecnocen/yii2-disable-submit-buttons/js";
 
     /**
      * @inheritdoc
