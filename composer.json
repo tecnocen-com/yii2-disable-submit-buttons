@@ -10,7 +10,7 @@
     ],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
-    "homepage": "https://github.com/tecnocen/yii2-jquery-tagsinput",
+    "homepage": "https://github.com/tecnocen-com/yii2-disable-submit-buttons",
     "authors": [
         {
             "name": "Angel (Faryshta) Guevara",
