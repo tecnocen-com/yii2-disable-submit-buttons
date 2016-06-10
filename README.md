@@ -31,7 +31,7 @@ Register the `tecnocen\assets\ActiveFormDisableSubmitButonsAsset`, preferably on
 class AppAsset extends yii\web\AssetBundle
 {
     public $depends = [
-        'tecnocen\\assets\\ActiveFormDisableSubmitButonsAsset',
+        'tecnocen\\disablesubmitbutton\\assets\\ActiveFormDisableSubmitButtonsAsset',
         // other dependencies
     ];
 }
